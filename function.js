@@ -35,3 +35,5 @@ setTimeout(function () {           //setTimeout is for set timing.
     console.log(msg);
 }
 )();
+var a = [1,2,3,4]
+console.log(typeof(a));

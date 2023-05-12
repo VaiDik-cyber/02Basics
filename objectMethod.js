@@ -29,6 +29,10 @@ let car = {
 
 person.sayHello();
 
+function a () {
+    console.log(arguments.length);
+}
+a(3,5,6);
 // In JavaScript, the arguments object is an array-like object that contains all the arguments passed to a function. It allows you to access the arguments dynamically, regardless of the number of arguments specified in the function's definition.
 
 // However, the arguments object has some limitations. It does not have access to array methods like map, filter, or reduce, and you cannot apply array methods directly to it. Additionally, it does not support some of the functionalities provided by the rest parameter syntax.

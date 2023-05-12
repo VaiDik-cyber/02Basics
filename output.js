@@ -9,13 +9,13 @@
 // }
 
 
-// let response = confirm("Are You Sure, You Want To Delete?");
-// if(response){
-//     document.write("Deleted");
-// }else{
-//     document.write("Not Deleted");
-// }
+let response = confirm("Are You Sure, You Want To Delete?");
+if(response){
+    console.log("Deleted");
+}else{
+    document.write("Not Deleted");
+}
 
-let type = 5 * 'yes';
-console.log(type);
-console.log(typeof type);
+// let type = 5 * 'yes';
+// console.log(type);
+// console.log(typeof type);
