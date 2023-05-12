@@ -6,6 +6,8 @@
 hello(); //in other languages this will ocuure as a error. 
 
 function hello(){
+    console.log(y);
+    var y = 5;
     console.log("Hello world");
 }
 
